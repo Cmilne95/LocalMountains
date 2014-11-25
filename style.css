@@ -1,0 +1,31 @@
+fieldset{
+    clear: both;
+    border: 1px solid darkslateblue;
+    
+}
+/* just pushes content to left side of the box. */
+fieldset.contact{
+    float: left;
+}
+/* when you look at the labels this pushes then next to the input and right 
+   aligns them. Display block means they are each on their own line.  */
+fieldset.contact label{
+    display: block;
+    text-align: right /* pushes the text to the right where they line up  */
+                      /*  the float left above pushes everything back to the left*/
+}
+
+fieldset.contact input{
+    width: 15em;    /* works with above to be the same size for the boxes */
+}
+
+.mistake {
+    color: #fff;
+    background-color:#800;
+    border: thin solid #000;
+}
+
+/* style the list of errors that will show before the form */
+#errors ol li{
+    color: #ff5555;
+}

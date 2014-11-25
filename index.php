@@ -5,12 +5,7 @@
     include ("top.php");
     ?>
 
-    <body>
-
-        <?php
-        include ("nav.php");
-        include ("header.php");
-        ?>
+    
 
         <h1>The Four main mountains local to the Burlington, VT area.</h1>
 
