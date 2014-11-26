@@ -19,10 +19,10 @@
                 print '<li><a href="summaries.php">Summaries</a></li>';
             }
 
-            if ($path_parts['filename'] == "survey") {
+            if ($path_parts['filename'] == "form") {
                 print '<li class="activePage">Survey</li>';
             } else {
-                print '<li><a href="survey.php">Survey</a></li>';
+                print '<li><a href="form.php">Survey</a></li>';
             }
 
             if ($path_parts['filename'] == "about") {
