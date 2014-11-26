@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Making the world a better place</title>
+        <title>Shred Vermont</title>
         <meta charset="utf-8">
         <meta name="author" content="Owen Chris and Tyler">
         <meta name="description" content="Info about local mountains">

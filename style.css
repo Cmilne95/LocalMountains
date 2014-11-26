@@ -1,182 +1,38 @@
-/* CSS designed by Robert M. Erickson */
 
-/* ===================  General Section  ==================================== */
-
-* {
-    font-size: 12pt;  /* sets the font size for all elements. */
-    /* look up reset style sheet */
-}
-
-div {
-    float: right;
-}
-body {
-    background-color: #66ffff;
-    background-image: url(redbg.gif);
-    margin-left: 6em;
-}
-
-h1 {
-    color: #000000;
-    font-family: "sansserif";
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-h2 {
-    color: #000000;
-    font-family: "sansserif";
-    font-weight: bold;
-    font-size: 1.25em;
-}
-
-h3 {
-    color: black;
-    font-family: 'times new roman';
-    font-weight: bold;
-    font-size: 1em;
-}
-
-h4 {
-    color: #000000;
-    font-family: "sansserif";
-    font-weight: bold;
-    font-size: .8em;	
-}
-
-h5 { 
-    color: #000000;
-    font-family: "sansserif";
-    font-weight: bold;
-    font-size: .6em;	
-}
-
-h6 {
-    color: #000000;
-    font-family: "sansserif";
-    font-weight: bold;
-    font-size: .5em;	
-}
-
-ol ol ol li {
-    list-style: lower-alpha
-    
-}
-
-ol ol li {
-    font-weight: normal;
-    list-style: decimal;
-    padding-top: 0em
-}
-
-ol li {
-    font-weight: bold;
-    list-style: upper-roman;
-    padding-top: 1em
-    
-}
-
-ul ul ul li { 
-    list-style: circle;
-}
-
-ul ul li { 
-    list-style: square;
-}
-
-ul li { 
-    list-style: disc;
-}
-
-/* ===================  Header Section  ==================================== */
-/* now i would have a section that corresponds to my html sections.          */
-header {
-    background-color: #dddddd;
-}
-
-/* ===================  Navigation Section  ================================= */
-
-
-
-
-/* ===================  Home Page        ==================================== */
-/* -------------------------------------------------------------------------- */
-#home {  
-    background-color: #aaaaaa;
-}
-
-#home p {
-    /* this rule will give all the paragraphs on the home page a first line  */
-    /* indent of 3 em. it only effects paragraphs that are contained inside  */
-    /* the element with the id of home, this replaces using an embeded or    */
-    /* level style */
-    text-indent: 3em;
-}
-
-/* ===================  General Class Section  ============================= */
-/* I can add any generic classes here. Technically i can place these rules   */
-/* anywhere in the style sheet. This just helps to organize everything.     */
-.firstLine {
-    text-indent: 3em;
-}
-
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-align-left	{
-    float: left;
-    margin-right: 1em;
-}
-
-align-right	{
-    float: right;
-    margin-left: 1em;
-}
-
-img.padding{
-    padding-bottom: 2cm;
-}
-
-ol.slide{
-    float:left;
-}
-#form{
-    background-color:antiquewhite;
-    color:darkslateblue;
-}
-fieldset{
-    clear: both;
-    border: 1px solid darkslateblue;
-    
-}
-/* just pushes content to left side of the box. */
-fieldset.contact{
-    float: left;
-}
-/* when you look at the labels this pushes then next to the input and right 
-   aligns them. Display block means they are each on their own line.  */
-fieldset.contact label{
-    display: block;
-    text-align: right /* pushes the text to the right where they line up  */
-                      /*  the float left above pushes everything back to the left*/
-}
-
-fieldset.contact input{
-    width: 15em;    /* works with above to be the same size for the boxes */
-}
-
-.mistake {
-    color: #fff;
-    background-color:#800;
-    border: thin solid #000;
-}
-
-/* style the list of errors that will show before the form */
-#errors ol li{
-    color: #ff5555;
-}
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	 
+	background: #fff url(blossoms.jpg) no-repeat bottom right; 
+	margin: 50px; 
+	padding: 0;
+	}
+   
+        
+ p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
