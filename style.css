@@ -1,0 +1,127 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #CCCC00;
+    margin: 20px;
+    font-size: 20px;
+    float: right;
+}
+
+body { 
+    font: 75% georgia, sans-serif;
+    background: radial-gradient(circle,whitesmoke,gray); 
+    margin: 50px; 
+    padding: 0;
+}
+
+h2.line1{
+    max-width: 200px;
+    border-bottom: 3px #181818 solid;
+}
+
+h2.line2{
+    max-width: 300px;
+    border-bottom: 3px #181818 solid;
+}
+
+h2.line3{
+    max-width: 400px;
+    border-bottom: 3px #181818 solid;
+}
+
+h2.line4{
+    max-width: 500px;
+    border-bottom: 3px #181818 solid;
+}
+
+div.sum{
+    border: 5px #181818 solid;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 30px;
+}
+
+div.text{
+    margin-top: 15px;
+    border: 5px #181818 solid;
+    padding: 10px;
+    background-color: whitesmoke; 
+    max-width: 900px;
+}
+
+h3.main_mountains{
+    margin-left: 90px;
+    display: inline;
+}
+
+div.main_mountains{
+    margin-bottom: 50px;
+}
+
+p { 
+    margin-top: 0; 
+    text-align: justify;
+}
+h1 { 
+    font: italic normal 1.4em georgia, sans-serif;
+    letter-spacing: 1px; 
+    margin-top: 50px;
+    margin-left: 125px; 
+    margin-right: 100px;
+    color: #006633;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ol {
+    margin-bottom: 50px;
+}
+
+li {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline;
+    border-right: 2px #CCCC00 solid;
+    border-left:2px #CCCC00 solid;
+}
+
+figure.resorts_map{
+    margin: 15px;
+    border: 5px #181818 solid;
+    float: left;
+    max-width: 300px;
+}
+
+div.text_map {
+    margin-right: 15px;
+    max-width: 300px;
+    border: 5px #181818 solid;
+}
+
+a:link {
+    color: #CCCC00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #CCCC00;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+
+div.heading{
+    width: 100%;
+    border: 5px #181818 solid;
+    padding: 10px;
+    background-color: #006633;
+}

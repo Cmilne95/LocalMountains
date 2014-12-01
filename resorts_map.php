@@ -7,11 +7,6 @@
 
     <body>
 
-        <?php
-        include ("nav.php");
-        include ("header.php");
-        ?>
-
         <figure class="resorts_map">
             <img class="map" src="vermont.gif" alt="A map showing location of the local resorts." usemap="#resorts_map">
             <map id="resorts_map" name="resorts_map">
@@ -20,8 +15,11 @@
                 <area shape="rect" alt="" title="" coords="47,200,196,227" href="http://www.boltonvalley.com/" target="_self" />
                 <area shape="rect" alt="" title="" coords="159,241,295,277" href="http://www.sugarbush.com/" target="_self" />
             </map>
+            <figcaption>click the mountain for more infromation</figcaption>
         </figure>
 
+        <div class="text_map">
+        
         <h2>
             Stowe
         </h2>
@@ -59,6 +57,8 @@
                 Sugarbush resort can be found in Warren, VT. It is an hour from 
             Burlington and 45 minutes from Montpelier. 
         </p>
+        
+        </div>
         
     </body>
 </html>
