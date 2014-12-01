@@ -1,38 +1,134 @@
-
 html {
-	margin: 0;
-	padding: 0;
-	}
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #CCCC00;
+    margin: 30px;
+    font-size: 20px;
+    float: right;
+}
+
 body { 
-	font: 75% georgia, sans-serif;
-	 
-	background: #fff url(blossoms.jpg) no-repeat bottom right; 
-	margin: 50px; 
-	padding: 0;
-	}
-   
-        
- p { 
-	margin-top: 0; 
-	text-align: justify;
-	}
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
-	}
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
-	}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
-	}
+    font: 75% georgia, sans-serif;
+    background: radial-gradient(circle,whitesmoke,gray); 
+    margin: 50px; 
+    padding: 0;
+}
+
+h2.line1{
+    max-width: 200px;
+    border-bottom: 3px #181818 solid;
+}
+
+h2.line2{
+    max-width: 300px;
+    border-bottom: 3px #181818 solid;
+}
+
+h2.line3{
+    max-width: 400px;
+    border-bottom: 3px #181818 solid;
+}
+
+h2.line4{
+    max-width: 500px;
+    border-bottom: 3px #181818 solid;
+}
+
+div.text_map{
+    border: 5px #181818 solid;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 510px;
+}
+
+div.sum{
+    border: 5px #181818 solid;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 30px;
+}
+
+div.text{
+    margin-top: 15px;
+    border: 5px #181818 solid;
+    padding: 10px;
+    background-color: whitesmoke; 
+    max-width: 900px;
+}
+
+h3.main_mountains{
+    margin-left: 90px;
+    display: inline;
+}
+
+div.main_mountains{
+    margin-bottom: 50px;
+}
+
+p { 
+    margin-top: 0; 
+    text-align: justify;
+}
+h1 { 
+    font: italic normal 1.4em georgia, sans-serif;
+    letter-spacing: 1px; 
+    margin-top: 50px;
+    margin-left: 125px; 
+    margin-right: 100px;
+    color: #006633;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ol {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline;
+    border-right: 2px #CCCC00 solid;
+    border-left:2px #CCCC00 solid;
+}
+
+figure.resorts_map{
+    margin: 15px;
+
+    float: left;
+    max-width: 500px;
+}
+
+img.map{
+    border: 5px #181818 solid;
+}
+
+a:link {
+    color: #CCCC00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #CCCC00;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+
+div.heading{
+    width: 100%;
+    border: 5px #181818 solid;
+    padding: 10px;
+    background-color: #006633;
+}
