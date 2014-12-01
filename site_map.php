@@ -1,8 +1,13 @@
 <?php
+include("top.php");
+?>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+<p><a href="index.php">Home Page</a>
+    <a href="resorts_map.php">Image Map of Vermont</a> </p>   
+<p><a href="summaries.php">Mountain Summaries</a>
+    <a href="form.php">Take our Survey</a></p>
+<p><a href="about.php">About Us</a>
+    <a href="elevations.php">Elevations</a></p>
 
+</body>
+</html>
